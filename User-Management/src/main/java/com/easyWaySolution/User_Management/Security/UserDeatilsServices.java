@@ -1,10 +1,8 @@
 package com.easyWaySolution.User_Management.Security;
 
-import com.easyWaySolution.User_Management.Model.Users;
+import com.easyWaySolution.User_Management.Entity.Users;
 import com.easyWaySolution.User_Management.Repository.UsersRepo;
-import io.micrometer.common.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

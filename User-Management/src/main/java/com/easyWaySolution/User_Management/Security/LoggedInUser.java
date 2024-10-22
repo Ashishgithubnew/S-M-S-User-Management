@@ -1,6 +1,6 @@
 package com.easyWaySolution.User_Management.Security;
 
-import com.easyWaySolution.User_Management.Model.Users;
+import com.easyWaySolution.User_Management.Entity.Users;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
